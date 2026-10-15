@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+
+# Go build output
+docker/go_containerization/simple_server
+
+# site_gen build output (regenerate with build.sh)
+site_gen/docs/
+site_gen/public/
